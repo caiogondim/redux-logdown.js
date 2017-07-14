@@ -1,0 +1,19 @@
+{
+  "name": "redux-logdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiogondim/redux-logdown.js.git"
+  },
+  "author": "Caio Gondim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiogondim/redux-logdown.js/issues"
+  },
+  "homepage": "https://github.com/caiogondim/redux-logdown.js#readme"
+}
