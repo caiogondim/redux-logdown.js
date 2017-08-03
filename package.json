@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "browserify src/index.js > dist/redux-logdown.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/caiogondim/redux-logdown.js/issues"
   },
-  "homepage": "https://github.com/caiogondim/redux-logdown.js#readme"
+  "homepage": "https://github.com/caiogondim/redux-logdown.js#readme",
+  "dependencies": {
+    "logdown": "^3.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "redux": "^3.7.1"
+  }
 }
