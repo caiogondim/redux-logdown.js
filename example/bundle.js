@@ -712,7 +712,8 @@ const store = redux.createStore(
 )
 
 store.dispatch({ type: 'LOREM', payload: {a: 1, b: 2}})
-store.dispatch({ type: 'IPSUM', payload: {a: 2, b: 3}})
+store.dispatch({ type: 'IPSUM', payload: {c: 2, d: 3}})
+store.dispatch({ type: 'DOLOR', payload: {e: true}})
 
 
 /***/ }),
