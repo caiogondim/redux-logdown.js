@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "npm test",
-    "build": "browserify src/index.js > dist/redux-logdown.js"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     "logdown": "^3.0.1"
   },
   "devDependencies": {
-    "browserify": "^14.4.0",
-    "redux": "^3.7.1"
+    "html-webpack-plugin": "2.30.1",
+    "redux": "^3.7.1",
+    "webpack": "3.4.1"
   }
 }
