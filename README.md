@@ -1,7 +1,7 @@
 <h1 align="center">redux-logdown.js</h1>
 
 <div align="center">
-<img src="http://travis-ci.org/caiogondim/logdown.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/logdown.js/master/dist/logdown.min.js?compression=gzip" alt="lib size"> <img src="https://codecov.io/gh/caiogondim/logdown.js/branch/master/graph/badge.svg" alt="codecov"> <a href="https://www.npmjs.com/package/logdown"><img src="https://img.shields.io/npm/v/logdown.svg" /></a>
+<img src="http://img.badgesize.io/caiogondim/redux-logdown.js/master/src/index.js?compression=gzip" alt="lib size"> <a href="https://www.npmjs.com/package/redux-logdown"><img src="https://img.shields.io/npm/v/redux-logdown.svg" /></a>
 </div>
 
 <br>
