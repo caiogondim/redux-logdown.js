@@ -1,7 +1,7 @@
 <h1 align="center">redux-logdown.js</h1>
 
 <div align="center">
-<img src="http://img.badgesize.io/caiogondim/redux-logdown.js/master/src/index.js?compression=gzip" alt="lib size"> <a href="https://www.npmjs.com/package/redux-logdown"><img src="https://img.shields.io/npm/v/redux-logdown.svg" /></a>
+<a href="https://www.npmjs.com/package/redux-logdown"><img src="https://img.shields.io/npm/v/redux-logdown.svg" /></a>
 </div>
 
 <br>
@@ -18,7 +18,7 @@ $ npm install --save redux-logdown
 
 ## Preview
 
-<img src="http://rawgit.com/caiogondim/redux-logdown.js/master/img/preview.svg">
+<img src="http://rawgit.com/caiogondim/redux-logdown.js/master/img/preview.png">
 
 ## Usage
 
