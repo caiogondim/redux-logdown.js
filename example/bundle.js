@@ -700,7 +700,7 @@ const redux = __webpack_require__(8)
 const reduxLogdown = __webpack_require__(24)
 
 const reducer = (state = {}, action) => {
-  return action.payload;
+  return action.payload
 }
 
 const middleware = reduxLogdown('store', { diff: true })
@@ -711,9 +711,9 @@ const store = redux.createStore(
   redux.applyMiddleware(middleware)
 )
 
-store.dispatch({ type: 'LOREM', payload: {a: 1, b: 2}})
-store.dispatch({ type: 'IPSUM', payload: {c: 2, d: 3}})
-store.dispatch({ type: 'DOLOR', payload: {e: true}})
+store.dispatch({ type: 'LOREM', payload: { a: 1, b: 2 } })
+store.dispatch({ type: 'IPSUM', payload: { c: 2, d: 3 } })
+store.dispatch({ type: 'DOLOR', payload: { e: true } })
 
 
 /***/ }),
@@ -1335,10 +1335,10 @@ const logdown = __webpack_require__(25)
 const reduxLogdown = (name, opts = {}) => {
   const logger = logdown(name)
   const prevLogger = logdown('prev state', { prefixColor: '#999999' })
-  const actionLogger = logdown('action', { prefixColor: '#6699CC' })
-  const nextLogger = logdown('next state', { prefixColor: '#99CC99' })
+  const actionLogger = logdown('action', { prefixColor: '#FFCC66' })
+  const nextLogger = logdown('next state', { prefixColor: '#6699CC' })
   prevLogger.state = actionLogger.state = nextLogger.state = logger.state
-  let prevState = undefined
+  let prevState
 
   return store => next => action => {
     if (!logger.state.isEnabled) {

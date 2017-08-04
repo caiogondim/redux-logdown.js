@@ -3,8 +3,8 @@ const logdown = require('logdown')
 const reduxLogdown = (name, opts = {}) => {
   const logger = logdown(name)
   const prevLogger = logdown('prev state', { prefixColor: '#999999' })
-  const actionLogger = logdown('action', { prefixColor: '#6699CC' })
-  const nextLogger = logdown('next state', { prefixColor: '#99CC99' })
+  const actionLogger = logdown('action', { prefixColor: '#FFCC66' })
+  const nextLogger = logdown('next state', { prefixColor: '#6699CC' })
   prevLogger.state = actionLogger.state = nextLogger.state = logger.state
   let prevState
 
