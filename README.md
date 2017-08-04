@@ -23,12 +23,17 @@ $ npm install --save redux-logdown
 ## Usage
 
 ```js
+const redux = require('redux')
 const reduxLogdown = require('redux-logdown')
 
 // ...
 
-const middleware = reduxLogdown('lorem')
-const store = createStore(const middleware = reduxLogdown('store', { diff: true }))
+const middleware = reduxLogdown('loremStore', { diff: true })
+const store = redux.createStore(
+  reducer,
+  undefined,
+  redux.applyMiddleware(middleware)
+)
 ```
 
 ### Enabling/disabling
