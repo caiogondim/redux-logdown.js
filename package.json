@@ -1,8 +1,11 @@
 {
   "name": "redux-logdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "Redux logger middleware",
   "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "test": "standard --fix 'src/*js' 'example/index.js' 'webpack.config.js'",
     "build": "webpack --config webpack.config.js"
