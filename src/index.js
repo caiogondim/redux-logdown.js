@@ -6,7 +6,7 @@ const reduxLogdown = (name, opts = {}) => {
   const actionLogger = logdown('action', { prefixColor: '#6699CC' })
   const nextLogger = logdown('next state', { prefixColor: '#99CC99' })
   prevLogger.state = actionLogger.state = nextLogger.state = logger.state
-  let prevState = undefined
+  let prevState
 
   return store => next => action => {
     if (!logger.state.isEnabled) {

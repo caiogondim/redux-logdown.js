@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "standard --fix 'src/*js' 'example/index.js' 'webpack.config.js'",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "html-webpack-plugin": "2.30.1",
     "redux": "^3.7.1",
+    "standard": "10.0.2",
     "webpack": "3.4.1"
   }
 }
