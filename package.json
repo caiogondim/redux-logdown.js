@@ -7,7 +7,7 @@
     "src/"
   ],
   "scripts": {
-    "test": "standard --fix 'src/*js' 'example/index.js' 'webpack.config.js'",
+    "test": "jest && standard --fix 'src/*js' 'test/*js' 'example/index.js' 'webpack.config.js'",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
@@ -25,8 +25,16 @@
   },
   "devDependencies": {
     "html-webpack-plugin": "2.30.1",
+    "jest": "21.2.1",
     "redux": "^3.7.1",
     "standard": "10.0.2",
     "webpack": "3.4.1"
+  },
+  "jest": {
+    "roots": [
+      "test/"
+    ],
+    "testRegex": "test/.*\\.js$",
+    "collectCoverage": true
   }
 }
