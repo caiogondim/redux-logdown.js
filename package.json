@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "test": "jest && standard --fix 'src/*js' 'test/*js' 'example/index.js' 'webpack.config.js'",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.build.config.js && webpack --config webpack.example.config.js"
   },
   "repository": {
     "type": "git",
