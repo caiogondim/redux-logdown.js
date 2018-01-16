@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/caiogondim/redux-logdown.js#readme",
   "dependencies": {
-    "logdown": "3.1.0"
+    "logdown": "3.2.3"
   },
   "devDependencies": {
     "html-webpack-plugin": "2.30.1",
