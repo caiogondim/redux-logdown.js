@@ -1,7 +1,7 @@
-<h1 align="center">redux-logdown.js</h1>
+# redux-logdown
 
-<div align="center">
-<a href="https://www.npmjs.com/package/redux-logdown"><img src="https://img.shields.io/npm/v/redux-logdown.svg" /></a>
+<div>
+  <a href="https://www.npmjs.com/package/redux-logdown"><img src="https://img.shields.io/npm/v/redux-logdown.svg" /></a>
 </div>
 
 <br>
